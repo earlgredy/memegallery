@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>memegallerymenu1</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap" rel="stylesheet">
+
+
+
+	<style type="text/css">
+		html{font-family: 'Noto Serif', serif;}
+
+		.inFoT{font-family: 'Noto Serif KR', serif;}
+
+		a{
+			margin-left: 16px;
+			display: block;
+			font-size:29px;
+			margin-bottom: 3px;
+			color: black;
+			text-decoration: none;
+		}
+
+		.mainP{
+			font-size:34px; 
+			margin-left: 16px ;
+			padding-top:24px; 
+			padding-bottom: 42px; 
+			margin-bottom: 0px;
+			text-decoration: none;
+		}
+
+		// 여기 교수님이 만들어주신 예제 적용하던 중이었음! 마우스 오버하면 확장되는거1124
+		div{transition: all 0.5s;}
+
+		img{width: 100%;}
+
+
+
+		
+
+    	#leftmenu{
+    		background-color: white;
+        	height: 800px;
+    
+        	width: 16%;
+        	padding-top: 0px;
+        	margin-top: 0px;
+
+
+        	
+        	//->이거 핵중요함
+    	}
+
+
+    	.buttn:hover{
+			padding-bottom: 0px;
+    		outline: 1.5px;
+    		border: 1.5px;
+    		border-style: none none solid none;
+    	}
+
+
+    	#funBut{
+    		padding-bottom: 0px;
+    		border: 1.5px;
+    		border-style: none none solid none;
+
+    	}
+
+
+
+    	#cardBox1{
+    		padding-right: 15px;
+    		outline: 1.5px;
+
+    		
+    		border-style: none solid none none;
+    		border-width: 1.5px;
+    		
+    	}
+
+    	#cardBox2{
+    		padding-right: 15px;
+    		outline: 1.5px;
+    		
+
+    		border-style: none solid none none;
+    		border-width: 1.5px;
+    		
+    	}
+
+    	#cardBox3{
+    		padding-right: 15px;
+    		outline: 1.5px;
+    		
+
+    		border-style: none solid none none;
+    		border-width: 1.5px;
+    		
+    	}
+
+
+    	.cards{
+    		border-style: none none solid none;
+    		border-width: 1.5px;
+    		margin-bottom: 15px;
+
+    	}
+
+    	.container{
+    		padding-top: 15px;
+    		outline: 1.5px;
+    		border: 1.5px;
+    		
+    		//이거 상세 보기들 상단 줄 그려준거
+
+    	}
+
+    
+    	
+
+
+    	// 여기 교수님이 만들어주신 예제 적용하던 중이었음! 마우스 오버하면 확장되는거1117
+
+    	.container{display: flex; width: 70vw;}
+    	.column{width: 33%;}
+    	
+
+    	.col1:hover{width: 60%; height: 90vh;overflow: scroll;}
+		.col1:hover ~ div{width: 20%;}
+
+		.col2:hover{width: 60%; height: 90vh;overflow: scroll;}
+		.col2:hover ~ div{width:20%}
+
+		.col3:hover{width: 60%; height: 90vh;overflow: scroll;}
+		.col3:hover ~ div{width: 20%}
+
+	
+
+	</style>
+</head>
+
+
+
+
+
+
+
+<body style="margin: 0px;">
+
+
+		<section id=leftmenu style="position: absolute;"> 
+
+			<a href="index.html" class= "mainP" >
+			Meme Gallery
+
+			</a>
+
+			<div style="font-size:29px; margin-left: 16px ;margin-bottom: 40px;">
+			meme you're looking for
+
+			</div>
+			
+
+			<a href="a1.html" class= "buttn" id="funBut" >
+			Fun
+			</a>
+
+			<a href="a2.html" class= "buttn" id="examBut">
+			Exam
+			</a>
+
+			<a href="a3.html" class= "buttn" id="officeBut">
+			Office work
+			</a>
+
+			<a href="a4.html" class= "buttn" id="DiBut">
+			Diet
+			</a>
+
+			<a href="a5.html" class= "buttn" id="stoBut">
+			Stock
+			</a>
+
+			<a href="a6.html" class= "buttn" id="happiBut">
+			Happiness
+			</a>
+
+			<a href="a7.html" class= "buttn" id="DesBut">
+			Despair
+			</a>
+
+			<a href="a8.html" class= "buttn" id="angerBut">
+			Anger
+			</a>
+
+			<a href="a9.html" class= "buttn" id="realiBut">
+			Reality
+			</a>
+
+		
+		</section>
+
+
+		
+		<section id="miniti" style="margin-top: 110px; position: absolute;">
+		<div style="font-size:29px; margin-left: 278px ; margin-right: 1200px; margin-bottom: 40px;">
+				memes for Fun
+			</div>
+
+		</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<section class="container" style=" padding-top: 240px; margin-left: 430px ; display: flex; gap: 70px;">
+
+
+
+			<div class="column col1" id="cardBox1" style="position: relative;">
+
+
+
+
+
+				<div class="cards">
+					<img src="fun1.jpeg">
+
+					<p style="font-size: 18px;">
+
+						<div style="font-size: 18px;">Title :</div>
+						<div class="inFoT">후훗</div>  
+
+
+						<div style="font-size: 18px; padding-top: 10px;">Original :</div>
+						<div class="inFoT">unknown</div>
+
+
+					</p>
+					
+				</div>
+
+				<div class="cards">
+					<img src="fun2.jpg">
+					
+					<p style="font-size: 18px;">
+
+						<div style="font-size: 18px;">Title :</div>
+						<div class="inFoT">뭐랭ㅎ</div>  
+
+
+						<div style="font-size: 18px; padding-top: 10px;">Original :</div>
+						<div class="inFoT">놀라운 토요일</div>
+
+
+					</p>
+					
+				</div>
+
+				<div class="cards">
+					<img src="fun3.png">
+					
+					<p style="font-size: 18px;">
+
+						<div style="font-size: 18px;">Title :</div>
+						<div class="inFoT">어디서부터 잘못된걸까</div>  
+
+
+						<div style="font-size: 18px; padding-top: 10px;">Original :</div>
+						<div class="inFoT">치즈덕</div>
+
+
+					</p>
+					
+				</div>
+
+				<div class="cards">
+					<img src="fun4.jpg">
+					
+					<p style="font-size: 18px;">
+
+						<div style="font-size: 18px;">Title :</div>
+						<div class="inFoT">냥냥펀치</div>  
+
+
+						<div style="font-size: 18px; padding-top: 10px;">Original :</div>
+						<div class="inFoT">unknown</div>
+
+
+					</p>
+					
+				</div>
+
+				<div class="cards">
+					<img src="fun13.jpeg">
+					
+					<p style="font-size: 18px;">
+
+						<div style="font-size: 18px;">Title :</div>
+						<div class="inFoT">말하기 전에 생각했나요?</div>  
+
+
+						<div style="font-size: 18px; padding-top: 10px;">Original :</div>
+						<div class="inFoT">unknown</div>
+
+
+					</p>
+					
+				</div>
+
+				
+
+
+			</div>
+
+
+
+
+
+
+
+
+
+			<div class="column col2" id="cardBox2" style=" position:  relative;">
+				<div class="cards">
+
+					<img src="fun5.PNG" style="">
+
+					<p style="font-size: 18px;">
+
+						<div style="font-size: 18px;">Title :</div>
+						<div class="inFoT">쓰레기같은 고민했구나</div>  
+
+
+						<div style="font-size: 18px; padding-top: 10px;">Original :</div>
+						<div class="inFoT">무한도전</div>
+
+
+					</p>
+					
+				</div>
+
+				<div class="cards">
+					<img src="fun6.jpg"style="">
+					
+					<p style="font-size: 18px;">
+
+						<div style="font-size: 18px;">Title :</div>
+						<div class="inFoT">노는 게 적성에 딱 맞아</div>  
+
+
+						<div style="font-size: 18px; padding-top: 10px;">Original :</div>
+						<div class="inFoT">즐거우리 우리네 인생</div>
+
+
+					</p>
+					
+				</div>
+
+				<div class="cards">
+					<img src="fun7.png"style="">
+					
+					<p style="font-size: 18px;">
+
+						<div style="font-size: 18px;">Title :</div>
+						<div class="inFoT">광란의 밤을 즐기고 올테니</div>  
+
+
+						<div style="font-size: 18px; padding-top: 10px;">Original :</div>
+						<div class="inFoT">치즈덕</div>
+
+
+					</p>
+					
+				</div>
+
+				<div class="cards">
+					<img src="fun8.png"style="">
+					
+					<p style="font-size: 18px;">
+
+						<div style="font-size: 18px;">Title :</div>
+						<div class="inFoT">신을 게 하나도 없어</div>  
+
+
+						<div style="font-size: 18px; padding-top: 10px;">Original :</div>
+						<div class="inFoT">치즈덕</div>
+
+
+					</p>
+					
+				</div>
+
+				
+
+
+			</div>
+
+
+
+
+
+
+
+			<div class="column col3" id="cardBox3" style=" position:  relative;">
+				<div class="cards">
+					<img src="fun9.jpg" >
+
+					<p style="font-size: 18px;">
+
+						<div style="font-size: 18px;">Title :</div>
+						<div class="inFoT">퍽</div>  
+
+
+						<div style="font-size: 18px; padding-top: 10px;">Original :</div>
+						<div class="inFoT">짱구는 못말려</div>
+
+
+					</p>
+					
+				</div>
+
+				<div class="cards">
+					<img src="fun14.jpg">
+					
+					<p style="font-size: 18px;">
+
+						<div style="font-size: 18px;">Title :</div>
+						<div class="inFoT">우리 웃자</div>  
+
+
+						<div style="font-size: 18px; padding-top: 10px;">Original :</div>
+						<div class="inFoT">강식당</div>
+
+
+					</p>
+					
+				</div>
+
+				<div class="cards">
+					<img src="fun10.jpg">
+					
+					<p style="font-size: 18px;">
+
+						<div style="font-size: 18px;">Title :</div>
+						<div class="inFoT">하하하하하하하하</div>  
+
+
+						<div style="font-size: 18px; padding-top: 10px;">Original :</div>
+						<div class="inFoT">신서유기</div>
+
+
+					</p>
+					
+				</div>
+
+				<div class="cards">
+					<img src="fun11.png">
+					
+					<p style="font-size: 18px;">
+
+						<div style="font-size: 18px;">Title :</div>
+						<div class="inFoT">너 왜이리 더러워</div>  
+
+
+						<div style="font-size: 18px; padding-top: 10px;">Original :</div>
+						<div class="inFoT">치즈덕</div>
+
+
+					</p>
+					
+				</div>
+
+				<div class="cards">
+					<img src="fun12.jpeg">
+					
+					<p style="font-size: 18px;">
+
+						<div style="font-size: 18px;">Title :</div>
+						<div class="inFoT">하루에 20시간은 쉬어야만 하니까</div>  
+
+
+						<div style="font-size: 18px; padding-top: 10px;">Original :</div>
+						<div class="inFoT">unknown</div>
+
+
+					</p>
+					
+				</div>
+
+
+
+			</div>
+
+
+
+
+
+		</section>
+
+
+
+			
+
+
+
+</body>
+</html>
